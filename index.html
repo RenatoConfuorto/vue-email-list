@@ -17,7 +17,7 @@
   
   <div id="root">
 
-    <ul>
+    <ul v-if="arrayCompleted">
       <li v-for="email in emails">{{ email }}</li>
     </ul>
 
